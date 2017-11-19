@@ -11,16 +11,16 @@ A    : the initial matrix
 ## Overview
 
 ```
-Step 1: Initialization of the work variables
-Step 2: Select the minimum degree node
-Step 3: Elimination of the node "NODE"  and its indistinguishable nodes.
-Step 4: Update degrees
-Step 4-1: Identification of indistinguishable nodes "RCHSET"
-Step 4-2: Merging indistinguishable nodes
-Step 4-3: Calcule degrees of indistinguishable nodes
-Step 4-4: Calculate degrees of unmerged nodes of "RCHSET"
-Step 4-5: Updating the threshold value for the new minimum degree search
-Step 5: Transforming the graph quotient
+Step 1   : Initialization of the work variables
+Step 2   : Select the minimum degree node
+Step 3   : Elimination of the node "NODE"  and its indistinguishable nodes.
+Step 4   : Update degrees
+Step 4-1 : Identification of indistinguishable nodes "RCHSET"
+Step 4-2 : Merging indistinguishable nodes
+Step 4-3 : Calcule degrees of indistinguishable nodes
+Step 4-4 : Calculate degrees of unmerged nodes of "RCHSET"
+Step 4-5 : Updating the threshold value for the new minimum degree search
+Step 5   : Transforming the graph quotient
 ```
 
 ## Subroutines
